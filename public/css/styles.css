@@ -1,0 +1,163 @@
+/*
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.logo {
+    width: 100%;
+    height: 150px;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+header p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.titulares {
+    font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+}
+
+.descripcion {
+    font-size: 16px;
+}
+
+.lista {
+    font-size: 10px;
+}
+
+.buscador {
+    display: flex;
+    width: 50%;
+    height: 34px;
+    font-size: 30px;
+    margin-left: 3%;
+}
+
+.burger-menu {
+    text-align: center;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 2em;
+    background-color: blue;
+    padding: 12px;
+    border-radius: 15%;
+    margin-bottom: 20px;
+
+}
+
+.fa-search {
+    color: white;
+    font-size: 1.5em;
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+i {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    
+    
+}
+
+.fa-hand-holding-usd {
+    margin-right: 40px;
+}
+
+.fa-search {
+    margin-left: 30px;
+    border-radius: 15%;
+    margin-top: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+.fa-credit-card {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.fa-gifts {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.fa-user-shield {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 150px;
+}
+
+@media (min-width: 361px){
+    main section article .description{
+        display: block;
+    }
+
+@media (min-width: 769px){
+        main section div.products article{
+            width: 22%;
+        }
+ }
+
+
+ main section article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+main {
+    
+    
+}
